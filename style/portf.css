@@ -6,6 +6,9 @@
 header{
     background-color:#FFF8F3;
     padding-top: 50px;
+    background-image:url(../images/developer.png) ,url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left ,bottom right;
 }
 
 *{
@@ -55,5 +58,222 @@ nav .gogo li a{
     border-radius: 5px;
     color: white;
     border: none;
+    cursor: pointer;
+
+}
+#banner{
+     margin-top: 47px;
+    margin-left: 230px;
+    margin-right: 38px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+
+}
+.banner-content h2
+{
+font-size: 45px;
+font-weight: 600;
+color: #474747;
+
+}
+#banner.banner-content h1{
+font-size: 85px;
+font-weight: bold;
+margin-bottom: 5px;
+
+}
+.banner-content p{
+    font-size:18px;
+    font-weight: regular;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    color: #757575;
+    line-height: 30px;
+}
+#secondlogo
+{
+background-color: #FD6E0A;
+color: white;
+padding-top: 19px;
+padding-bottom: 18px;
+padding-left: 51px;
+padding-right: 17px;
+border-radius: 5px;
+font-size: 20px;
+font-weight: bold;
+border: none;
+cursor: pointer;
+
+}
+
+#thirdlogo{
+font-size: 20px;
+font-weight: bold;
+color:white;
+padding-left: 23px;
+padding-right:24px ;
+padding-bottom:18px ;
+padding-top: 19px;
+border: 0.5px solid #FD6E0A ;
+background-color:#FD6E0A;
+border-radius: 5px;
+cursor: pointer;
+}
+.bicar{
+    display: flex;
+    gap: 30px;
+}
+.image-banner img{
+    max-width: 100%;
+    height: auto;
+  vertical-align: middle;
+}
+#section_colour{
+
+    background-color: #FFF8F3;
+}
+.aboout_paddding{
+
+     padding-top: 80px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.context{
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  width: 827px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+.dimubicar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.email p{
+    font-size: 20px;
+    font-style: normal;
+
+}
+.email h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.name p{
+
+font-size:20px;
+font-style: normal;
+
+}
+.name h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.dateb p{
+
+font-size: 20px;
+font-style: normal;
+}
+.dateb h4{
+ font-size: 20px;
+    font-weight:bold;}
+.from p{
+    font-size: 20px;
+font-style: normal;
+
+}
+.from h4{
+ font-size: 20px;
+    font-weight:bold;}
+    .skill h2{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        padding-top: 130px;
+        padding-right: 486px;
+        padding-left: 487px;
+    }
+    .skill p{
+        font-size: 18px;
+        color:#757575;
+        line-height: 30px;
+        padding-top: 30px;
+        padding-right: 387px;
+        padding-left: 386px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+    }
+    .firstimg{
+width: 277px;
+height: 377px;
+margin: auto;
+    }
+    .firstimg h2{
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 104px;
+        padding-right: 63px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+    .secondimg{
+
+        
+     
+        width: 277px;
+height: 377px;
+margin: auto;
+    }
+    .secondimg h2{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 103px 180px 20px 30px;
+    }
+.thirdimg{
+       
+        width: 277px;
+height: 377px;
+margin: auto;
+ 
+}
+.thirdimg h2{
+
+      font-size: 20px;
+        font-weight: bold;
+       padding-top: 104px;
+
+}
+.fouthimg{
+           width: 277px;
+height: 377px;
+margin: auto;
+}
+
+.fouthimg h2{
+    font-size: 20px;
+        font-weight: bold;
+        padding: 28px 180px 20px 30px
+}
+.gok{
+    padding-top: 29px;
+   
+
+}
+.fouthimg img{
+padding: 20px 157px 30px 10px;}
+.thirdimg img{
+
+    padding-top:30px ;
+    padding-right: 197px;
+    padding-left: 30px;
 
 }
